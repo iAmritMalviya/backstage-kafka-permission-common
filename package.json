@@ -1,19 +1,31 @@
 {
   "name": "backstage-kafka-permission-common",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "prepublishOnly": "npm run build"  
   },
   "keywords": [
     "backstage",
-    "annoucement-permissions"
+    "announcement-permissions",
+    "typescript",
+    "kafka",
+    "plugin"
   ],
-  "author": "iAmritMalviya",
+  "author": "iAmritMalviya <your-email@example.com>",
   "license": "MIT",
-  "description": "A plugin to use common permissions of kafka in backstage",
+  "description": "A plugin to use common permissions of Kafka in Backstage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iAmritMalviya/backstage-kafka-permission-common.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iAmritMalviya/backstage-kafka-permission-common/issues"
+  },
+  "homepage": "https://github.com/iAmritMalviya/backstage-kafka-permission-common#readme",
   "devDependencies": {
     "tsup": "^8.1.0",
     "typescript": "^5.5.3"
