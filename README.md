@@ -1,8 +1,6 @@
 ```markdown
 # Backstage Kafka Permission Common
 
-[![npm version](https://badge.fury.io/js/backstage-kafka-permission-common.svg)](https://badge.fury.io/js/backstage-kafka-permission-common)
-
 A plugin to use common permissions of Kafka in Backstage.
 
 ## Installation
