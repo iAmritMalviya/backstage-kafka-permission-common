@@ -1,4 +1,3 @@
-```markdown
 # Backstage Kafka Permission Common
 
 A plugin to use common permissions of Kafka in Backstage.
