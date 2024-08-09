@@ -20,10 +20,3 @@ export const clusterUpdatePermission = createPermission({
   attributes: { action: 'update' },
 });
 
-export const clusterEntityPermissions = {
-  clusterReadPermission,
-  clusterCreatePermission,
-  clusterDeletePermission,
-  clusterUpdatePermission,
-};
-// adding view permissions

@@ -19,10 +19,3 @@ export const platformUpdatePermission = createPermission({
   name: 'kafka.platform.entity.update',
   attributes: { action: 'update' },
 });
-
-export const platformEntityPermissions = {
-  platformCreatePermission,
-  platformReadPermission,
-  platformDeletePermission,
-  platformUpdatePermission,
-};

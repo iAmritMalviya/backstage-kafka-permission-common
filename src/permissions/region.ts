@@ -19,10 +19,3 @@ export const regionUpdatePermission = createPermission({
   name: 'kafka.region.entity.update',
   attributes: { action: 'update' },
 });
-
-export const regionEntityPermissions = {
-  regionCreatePermission,
-  regionReadPermission,
-  regionDeletePermission,
-  regionUpdatePermission,
-};

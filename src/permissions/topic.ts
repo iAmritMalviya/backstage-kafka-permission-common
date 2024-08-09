@@ -1,40 +1,37 @@
 import { createPermission } from '@backstage/plugin-permission-common';
 
-const topicCreatePermission = createPermission({
+export const topicCreatePermission = createPermission({
   name: 'kafka.topic.entity.create',
   attributes: { action: 'create' },
 });
 
-const topicReadPermission = createPermission({
+export const topicReadPermission = createPermission({
   name: 'kafka.topic.entity.read',
   attributes: { action:'read' },
 });
 
-const topicDeletePermission = createPermission({
+export const topicDeletePermission = createPermission({
   name: 'kafka.topic.entity.delete',
   attributes: { action: 'delete' },
 });
 
-const topicUpdatePermission = createPermission({
+export const topicUpdatePermission = createPermission({
   name: 'kafka.topic.entity.update',
   attributes: { action: 'update' },
 });
 
-const topicPromotePermission = createPermission({
-  name: 'topic.entity.promote',
+export const topicPromotePermission = createPermission({
+  name: 'kafka.topic.entity.promote',
   attributes: { action: 'update' },
 });
 
-const topicUpdateStatusPermission = createPermission({
+export const topicConfigUpdatePermission = createPermission({
+  name: 'kafka.topic.entity.config.update',
+  attributes: { action: 'update' },
+});
+
+export const topicUpdateStatusPermission = createPermission({
   name: 'kafka.topic.entity.update-status',
   attributes: { action: 'update' },
 });
 
-export const topicPermissions = {
-  topicReadPermission,
-  topicCreatePermission,
-  topicDeletePermission,
-  topicUpdatePermission,
-  topicPromotePermission,
-  topicUpdateStatusPermission,
-};

@@ -19,10 +19,3 @@ export const environmentUpdatePermission = createPermission({
   name: 'kafka.environment.entity.update',
   attributes: { action: 'update' },
 });
-
-export const environmentEntityPermissions = {
-  environmentReadPermission,
-  environmentCreatePermission,
-  environmentDeletePermission,
-  environmentUpdatePermission,
-};
