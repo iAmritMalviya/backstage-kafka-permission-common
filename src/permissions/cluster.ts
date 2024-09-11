@@ -20,3 +20,7 @@ export const clusterUpdatePermission = createPermission({
   attributes: { action: 'update' },
 });
 
+// export const clusterManagePermission = createPermission({
+//   name: 'kafka.cluster.entity.manage',
+//   attributes: { action: 'manage' },
+// })

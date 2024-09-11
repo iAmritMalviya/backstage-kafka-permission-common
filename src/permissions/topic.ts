@@ -35,3 +35,4 @@ export const topicUpdateStatusPermission = createPermission({
   attributes: { action: 'update' },
 });
 
+
